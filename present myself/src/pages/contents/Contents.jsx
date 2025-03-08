@@ -1,9 +1,5 @@
-import styled from './contents.module.css'
-
-function Contents() {
-    return(
-        <h1>contents</h1>
-    )
+function Contnets() {
+  return <p>content</p>
 }
 
-export default Contents
+export default Contnets

@@ -1,0 +1,58 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7R86pe3jGrWRnI9tfAd7kK_ASLecUsIyiCQ&s",
+      "writer": "Amin",
+      "category": "design"
+    },
+    {
+      "id": 2,
+      "image": "https://iii.ac.ir/wp-content/uploads/2024/10/Programming-Language-1.jpg",
+      "writer": "Amin",
+      "category": "develop"
+    },
+    {
+      "id": 3,
+      "image": "https://files.virgool.io/upload/users/237080/posts/uh7fkvbjhtmm/rlsphemdw6sn.jpeg?width=1024",
+      "writer": "Amin",
+      "category": "develop"
+    },
+    {
+      "id": 4,
+      "image": "https://blog.faradars.org/wp-content/uploads/2022/04/What-is-Programming-Language.jpg",
+      "writer": "Amin",
+      "category": "develop"
+    },
+    {
+      "id": 5,
+      "image": "https://www.intandemcommunications.co.uk/wp-content/uploads/2019/08/What-is-marketing.jpg",
+      "writer": "Amin",
+      "category": "marketing"
+    },
+    {
+      "id": 6,
+      "image": "https://quickframe.com/wp-content/uploads/2024/07/QF-Blog_Social-Media-Marketing_-Complete-Guide-for-Advertisers-2024_1920x1080.jpg",
+      "writer": "Amin",
+      "category": "marketing"
+    },
+    {
+      "id": 7,
+      "image": "https://99designs-blog.imgix.net/blog/wp-content/uploads/2022/04/f-e1649635721748.jpeg?auto=format&q=60&fit=max&w=930",
+      "writer": "Amin",
+      "category": "design"
+    },
+    {
+      "id": 8,
+      "image": "https://shakuro.com/_next/image?url=https%3A%2F%2Fblog.cgify.com%2Fwp-content%2Fuploads%2F2020%2F01%2Fmeaning-of-design.jpg&w=2560&q=98",
+      "writer": "Amin",
+      "category": "design"
+    },
+    {
+      "id": 9,
+      "image": "https://kinsta.com/wp-content/uploads/2021/11/Untitled-48.png",
+      "writer": "Amin",
+      "category": "develop"
+    }
+  ]
+}
