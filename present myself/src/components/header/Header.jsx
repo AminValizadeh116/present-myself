@@ -8,7 +8,7 @@ function Header() {
         <ul className="flex justify-between w-100">
             <li className='text-amber-50 hover:font-semibold '><Link to='/contents'>contents</Link></li>
             <li className='text-amber-50 hover:font-semibold'><Link to='/services'>services</Link></li>
-            <li className='text-amber-50 hover:font-semibold'><Link to='/blogs'>blogs</Link></li>
+            <li className='text-amber-50 hover:font-semibold'><Link to='/location'>location</Link></li>
             <li className='text-amber-50 hover:font-semibold'><Link to='/about'>about</Link></li>
             <li className='text-amber-50 hover:font-semibold'><Link to='/'>home</Link></li>
         </ul>

@@ -1,9 +1,9 @@
 import styled from './blogs.module.css'
 
-function Blogs() {
+function Location() {
     return(
-        <h1>Blogs</h1>
+        <h1>locatoin</h1>
     )
 }
 
-export default Blogs
+export default Location

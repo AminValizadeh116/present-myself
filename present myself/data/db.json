@@ -54,5 +54,37 @@
       "writer": "Amin",
       "category": "develop"
     }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "writer": "Mmd",
+      "content": "I really enjoy of this website design",
+      "img": "https://static-00.iconduck.com/assets.00/person-icon-476x512-hr6biidg.png"
+    },
+    {
+      "id": 2,
+      "writer": "Mahsa",
+      "content": "The services was very cool. thank you",
+      "img": "https://static-00.iconduck.com/assets.00/person-icon-476x512-hr6biidg.png"
+    },
+    {
+      "id": 3,
+      "writer": "Amir",
+      "content": "I'm looking for coaprating with this team. can you help me...",
+      "img": "https://static-00.iconduck.com/assets.00/person-icon-476x512-hr6biidg.png"
+    },
+    {
+      "id": 4,
+      "writer": "Sana",
+      "content": "An Instagram Comment is one of two ways that people engage with your content on the platform. Here are 150+ ideas to inspire you to leave spectacular comments.",
+      "img": "https://static-00.iconduck.com/assets.00/person-icon-476x512-hr6biidg.png"
+    },
+    {
+      "id": 5,
+      "writer": "Arshida",
+      "content": "They serve as a form of social interaction and community building, allowing users to express opinions, share thoughts, and initiate dialogue with content creators and other followers.",
+      "img": "https://static-00.iconduck.com/assets.00/person-icon-476x512-hr6biidg.png"
+    }
   ]
 }

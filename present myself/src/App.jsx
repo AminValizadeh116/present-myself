@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router";
 import Services from "./pages/services/Services";
 import Home from "./pages/home/Home";
 import Contents from "./pages/contents/Contents";
-import Blogs from "./pages/blogs/Blogs";
+import Location from "./pages/blogs/Blogs";
 import About from "./pages/aboutUs/About";
 import './app.css'
 
@@ -12,7 +12,7 @@ function App() {
       <Route  path="/" element={<Home/>} />
       <Route  path="/contents" element={<Contents/>} />
       <Route  path="/services" element={<Services/>} />
-      <Route  path="/blogs" element={<Blogs/>} />
+      <Route  path="/location" element={<Location/>} />
       <Route  path="/about" element={<About/>} />
     </Routes>
   );

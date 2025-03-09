@@ -2,17 +2,20 @@ import { Routes } from "react-router";
 import styled from "./home.module.css";
 import Header from "../../components/header/Header";
 import { useTypewriter } from "react-simple-typewriter";
+import Footer from "../../components/footer/Footer";
 
 function Home() {
   const [owners] = useTypewriter({
-    words: ["Amin", "Armita"],
+    words: ["Amin"
+      // , "Armita"
+    ],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 40,
   });
 
   return (
-    <div className={`${styled.home} h-lvh`}>
+    <div className={`${styled.home} min-h-lvh`}>
       <Header />
       <div className={`flex justify-center ${styled.font}`}>
         <div className="text-center max-w-4xl">
@@ -29,6 +32,7 @@ function Home() {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
