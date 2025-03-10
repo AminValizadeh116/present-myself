@@ -7,6 +7,7 @@ import phonePic from "./../../assets/icons-phone.png";
 import Header from "../../components/header/Header";
 import { useState } from "react";
 import CounterUp from "../../components/counterUp/CounterUp";
+import Footer from "../../components/footer/Footer";
 
 function About() {
 
@@ -98,9 +99,12 @@ function About() {
       </div>
       <div className="flex justify-center">
         <div className="w-4xl">
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
           <CounterUp />
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

@@ -3,6 +3,7 @@ import styled from "./home.module.css";
 import Header from "../../components/header/Header";
 import { useTypewriter } from "react-simple-typewriter";
 import Footer from "../../components/footer/Footer";
+import Comments from "../../components/comments/Comments";
 
 function Home() {
   const [owners] = useTypewriter({
@@ -20,7 +21,7 @@ function Home() {
       <div className={`flex justify-center ${styled.font}`}>
         <div className="text-center max-w-4xl">
           <h3 className="text-white text-xl"> hello we are</h3>
-          <h1 className="text-4xl text-amber-500 font-bold">{owners}</h1>
+          <h1 className="text-4xl text-amber-200 font-bold">{owners}</h1>
           <p className="text-white pt-10 text-md">
             We specialize in designing and developing modern, user-friendly
             websites. Using the latest **Front-End** technologies and
@@ -32,6 +33,7 @@ function Home() {
           </p>
         </div>
       </div>
+      <Comments />
       <Footer />
     </div>
   );

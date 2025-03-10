@@ -1,16 +1,30 @@
-import React, { useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import CountUp from "react-countup";
-// import ScrollTrigger from "react-scroll-trigger";
 import HappyGif from "./../../assets/icons-happy.gif";
 import CompletedIcon from "./../../assets/icons-completed.png";
 import CodeGif from "./../../assets/icons8-code.gif";
 import downloadGif from "./../../assets/icons-download.gif";
 
 function CounterUp() {
-  const [counterOn, setCounterOn] = useState(false);
+  const counterSectionRef = useRef();
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
+        setVisible(entry.isIntersecting);
+      },
+      { threshold: 0 }
+    );
+
+    observer.observe(counterSectionRef.current);
+  }, []);
+
+  console.log(visible);
 
   return (
-    <div className="flex justify-center pt-10">
+    <div ref={counterSectionRef} className="flex justify-center pt-10">
       <div className="w-4xl grid grid-cols-12 gap-5 mb-15">
         <div className="col-span-3 bg-neutral-400 rounded-xl pb-5">
           <div className="flex justify-between p-5 items-center flex-row-reverse">
@@ -18,7 +32,7 @@ function CounterUp() {
             <img src={HappyGif} alt="" className="rounded-full w-7" />
           </div>
           <p className="text-7xl font-semibold text-center">
-            <CountUp start={0} end={105} duration={5} delay={0} />
+            {visible && <CountUp start={0} end={105} duration={5} delay={0} />}
           </p>
         </div>
 
@@ -32,7 +46,7 @@ function CounterUp() {
             />
           </div>
           <p className="text-7xl font-semibold text-center">
-          <CountUp start={0} end={81} duration={5} delay={0}/>
+            {visible && <CountUp start={0} end={81} duration={5} delay={0} />}
           </p>
         </div>
 
@@ -42,8 +56,10 @@ function CounterUp() {
             <img src={CodeGif} alt="" className="rounded-sm w-7" />
           </div>
           <p className="text-5xl font-semibold text-center pt-3">
-          <CountUp start={0} end={810455} duration={5} delay={0}/>
-            </p>
+            {visible && (
+              <CountUp start={0} end={810455} duration={5} delay={0} />
+            )}
+          </p>
         </div>
 
         <div className="col-span-3 bg-neutral-400 rounded-xl">
@@ -52,7 +68,7 @@ function CounterUp() {
             <img src={downloadGif} alt="" className="rounded-xs w-7" />
           </div>
           <p className="text-7xl font-semibold text-center">
-          <CountUp start={0} end={455} duration={5} delay={0}/>
+            {visible && <CountUp start={0} end={455} duration={5} delay={0} />}
           </p>
         </div>
       </div>

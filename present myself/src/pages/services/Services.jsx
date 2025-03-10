@@ -1,8 +1,8 @@
 import styled from './services.module.css'
 import { useEffect, useState } from "react";
 import Header from "../../components/header/Header";
-
 import axios from "axios";
+import Footer from '../../components/footer/Footer';
 
 function Services() {
   const [services, setServices] = useState(null);
@@ -13,13 +13,10 @@ function Services() {
     );
   }, []);
 
-  console.log(services);
-  console.log(status);
-
   return (
     <div className={`${styled.contents} min-h-lvh`}>
       <Header />
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-10">
         <div className="w-4xl">
           <div className="flex justify-between my-10">
             <button
@@ -81,6 +78,8 @@ function Services() {
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

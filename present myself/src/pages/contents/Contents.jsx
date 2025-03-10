@@ -3,12 +3,13 @@ import reactPic from "./../../assets/icons-react.png";
 import jsPic from "./../../assets/icons-js.png";
 import tailwindPic from "./../../assets/icons-tailwind.png";
 import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
 
 function Contnets() {
   return (
     <div className="bg-gray-400 min-h-lvh">
       <Header />
-      <div className="flex justify-center mt-10">
+      <div className="flex justify-center mt-10 mb-20">
         <div className="grid grid-cols-12 gap-7 w-4xl">
           <a
             href="https://react.dev/"
@@ -65,6 +66,8 @@ function Contnets() {
           </a>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

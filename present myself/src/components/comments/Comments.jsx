@@ -16,10 +16,6 @@ function Comments() {
     <>
       <div className="flex justify-center">
         <div className="w-md py-20 overflow-hidden">
-          {/* {commentList.map((comment) => ( 
-            <CommentsDetail key={comment.id} comment={comment} />
-        ))} */}
-
           <CommentsDetail>{commentList}</CommentsDetail>
         </div>
       </div>

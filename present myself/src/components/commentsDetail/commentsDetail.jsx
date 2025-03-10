@@ -20,7 +20,7 @@ function CommentsDetail(props) {
     <>
       <div className="flex transition-transform ease-in-out duration-500" style={{transform: `translateX(-${curr * 100}%)`}}>
         {commentList.map((comment) => (
-          <div className="bg-neutral-900 min-w-md rounded-3xl p-8 text-white">
+          <div className="bg-gray-800 min-w-md rounded-3xl p-8 text-white">
             <div className="flex justify-center -mt-13">
               <div className="bg-amber-200 rounded-full w-10 h-10 flex items-center justify-center">
                 <img src={personIcon} alt="personIcon" />
