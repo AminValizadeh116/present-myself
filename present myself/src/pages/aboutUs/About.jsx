@@ -1,5 +1,4 @@
 import styled from "./about.module.css";
-// import ownerPic from "./../../assets/owners2.jpg";
 import ownerPic from "./../../assets/owners.jpg";
 import githubPic from "./../../assets/icons-github.png";
 import emailPic from "./../../assets/icons-email.png";

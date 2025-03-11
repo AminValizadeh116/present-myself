@@ -7,8 +7,8 @@ import Comments from "../../components/comments/Comments";
 
 function Home() {
   const [owners] = useTypewriter({
-    words: ["Amin"
-      // , "Armita"
+    words: ["Amin",
+      "Valizadeh"
     ],
     loop: {},
     typeSpeed: 100,
